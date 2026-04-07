@@ -1,0 +1,9 @@
+{
+    "mcpServers": {
+        "blender": {
+            "command": "uvx blender-mcp",
+            "env": {},
+            "args": []
+        }
+    }
+}
