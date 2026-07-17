@@ -19,6 +19,9 @@ A collection of custom mahjong tile artwork organized as the "Minnesota theme." 
 - `minnesota-theme-showcase.html` — Standalone showcase (same content, for local viewing)
 - `TileSmith-Brand-Guidelines.pdf` — Brand reference document
 - `tilesmith-brand-system.html`, `tilesmith-landing.html` — Brand/landing pages
+- `docs/print-tuning-bambu-bam.md` — Bambu Studio / AMS checklist for Bam tile prints (white face + black relief) and **3MF export** (dedupe, bed fit, multi-part import)
+- `scripts/blender_thicken_bam_face_slabs.py` — Blender: thicken `FaceSlab` meshes before export (optional)
+- `scripts/blender_prepare_bam_export_for_bambu.py` — Blender: dedupe overlapping cream slabs, rename parts per tile for 3MF, apply transforms, merge-by-distance, non-manifold report
 
 ## Updating Showcase Pages
 
